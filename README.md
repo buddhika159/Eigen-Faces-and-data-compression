@@ -5,23 +5,22 @@ Learn how to perform Exploratory Data Analysis for Natural Language Processing u
 
 ## Description:
 
-In this we will use a wine review dataset taken from Wine Enthusiast website to learn:
-
- - How to create a basic wordcloud from one to several text documents
- - Adjust color, size and number of text inside your wordcloud
- - Mask your wordcloud into any shape of your choice
- - Mask your wordcloud into any color pattern of your choice
+In this project we will use Extended Yale Face Database to construct a data compression algorithm using Eigen faces. Steps include:
+ - Create a large readable matrix `allPersons` from the data set with each block assigned to each individual
+ - Compute the mean (or average) face out of all them and create `avgFace`
+ - Compute Eigen Faces - Eigenvectors using `np.linalg.svd()`
+ - Construct a given `testFace` by projecting it to the projection matrix `U[:,:r]*U[:,:r].T`.
 
 
 <p float="left" align="middle">
   <img src="all_faces.jpeg" width="70%" />
 </p>
 
-<p float="center">
+<p float="left" float="center">
   <img src="test_face_1.png" width="70%" />
 </p>
 
-<p float="center">
+<p float="left" float="center">
   <img src="test_face_2.png" width="70%" />
 </p>
 
