@@ -18,13 +18,11 @@ In this we will use a wine review dataset taken from Wine Enthusiast website to 
 </p>
 
 <p float="center">
-  <img src="test_face1_1.png" width="70%" />
-  <img src="test_face1_2.png" width="70%" /> 
+  <img src="test_face_1.png" width="70%" />
 </p>
 
 <p float="center">
-  <img src="test_face2_1.png" width="70%" />
-  <img src="test_face2_2.png" width="70%" /> 
+  <img src="test_face_2.png" width="70%" />
 </p>
 
 ## Dataset Content:
