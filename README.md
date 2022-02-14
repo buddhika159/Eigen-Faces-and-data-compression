@@ -11,7 +11,7 @@ In this project we will use Extended Yale Face Database to construct a data comp
  - Compute Eigen Faces - Eigenvectors using `np.linalg.svd()`
  - Construct a given `testFace` by projecting it to the projection matrix `U[:,:r]*U[:,:r].T`.
 
-<p float="left" align="middle">
+<p align="middle">
   <img src="all_faces.jpeg" width="70%" />
 </p>
 
