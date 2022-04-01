@@ -1,10 +1,9 @@
 # Eigen Faces and Data compression
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-
-Learn how to perform Exploratory Data Analysis for Natural Language Processing using WordCloud in Python.
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 
 ## Description:
-
+This Project based on the book [Data-Driven Science and Engineering: Machine Learning, Dynamical Systems, and Control](http://www.databookuw.com/) PART 1 Chapter 1: Singular Value Decomposition. 
 In this project we will use Extended Yale Face Database to construct a data compression algorithm using Eigen faces. Steps include:
  - Create a large readable matrix `allPersons` from the data set with each block assigned to each individual
  - Compute the mean (or average) face out of all them and create `avgFace`
@@ -25,18 +24,9 @@ Below shows the projection of two test faces into the Eigen Face projectoin matr
   <img src="test_face_2.png" width="70%" />
 </p>
 
-## Dataset Content:
-
-Here, we demonstrate this algorithm using the Extended Yale Face Database, consisting of cropped and aligned images of 38 individuals under 9 poses and 64 lighting conditions.
-
-#### Dataset Link: http://www.databookuw.com/
 
 ## Prerequisites:
 
 Below libraries are needed to execute this Python code.
-
  - numpy
  - matplotlib
- - os
- - PIL
- - scipy.io
